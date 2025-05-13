@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# Create essential Airflow folders if they don't exist
+mkdir -p ./dags ./logs ./plugins
+
 # Set AIRFLOW_UID for Docker (if not already set)
 [ ! -f .env ] && echo -e "AIRFLOW_UID=$(id -u)" > .env
 
@@ -7,5 +12,5 @@
 # Start Airflow services
 docker compose up -d
 
-# (Optional) Verify running containers
+# Verify running containers
 docker compose ps
