@@ -1,0 +1,26 @@
+# Airflow
+logs/
+airflow.db
+webserver_config.py
+.env
+
+# Docker
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Misc
+*.swp
+*.bak
