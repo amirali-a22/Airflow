@@ -121,6 +121,8 @@ services:
   airflow-webserver:
     <<: *airflow-common
     command: webserver
+#    volumes:
+#      - ./dags:/opt/airflow/dags
     ports:
       - "8080:8080"
     healthcheck:
@@ -138,6 +140,8 @@ services:
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
+#    volumes:
+#      - ./dags:/opt/airflow/dags
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
       interval: 30s
