@@ -18,15 +18,15 @@ Set Airflow UID:
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 Download Airflow's Docker Compose file (if not present):
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml'
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/stable/docker compose.yaml'
 
 Start Airflow:
-docker-compose up -d
+docker compose up -d
 
 Access the Airflow UI at http://localhost:8080. Default login: airflow/airflow.
 
 Stopping Airflow
-docker-compose down
+docker compose down
 
 Directory Structure
 
@@ -42,6 +42,6 @@ Add custom DAGs to dags/ and test locally before pushing.
 Troubleshooting
 
 Check container status: docker ps
-View logs: docker-compose logs
+View logs: docker compose logs
 
 
