@@ -168,8 +168,8 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'retries': 1,
-    'retry_delay': timedelta(seconds=1),  # Retry after 30 seconds
-    'on_failure_callback': notify,  # Set the notify function as the failure callback
+    'retry_delay': timedelta(seconds=1),
+    'on_failure_callback': notify,
 }
 
 # Define the DAG
