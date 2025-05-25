@@ -1,0 +1,995 @@
+[
+  {
+    "_id": {
+      "$oid": "6821d14a76deac4f3974d5ca"
+    },
+    "username": "kasra-khakpour-a9881115b",
+    "experiences": [
+      {
+        "company_name": "Cobel Darou",
+        "company_url": "https://www.linkedin.com/company/5058786/",
+        "company_id": "5058786",
+        "job_title": "System and methods expert",
+        "employment_type": "Full-time",
+        "start_date": {
+          "date": "Dec 2024",
+          "year": 2024,
+          "month": 12,
+          "day": 1,
+          "timestamp": 1733011200
+        },
+        "end_date": null,
+        "duration_of_cooperation": 5,
+        "skills": [
+          "BPMN",
+          "BizAgi",
+          "Business Process Mapping",
+          "Document Management",
+          "English as a Second Language (ESL)",
+          "ISO 9001",
+          "Knowledge Management",
+          "Risk Management",
+          "Strategic Planning"
+        ],
+        "job_description": null
+      },
+      {
+        "company_name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+        "company_url": "https://www.linkedin.com/company/9279571/",
+        "company_id": "9279571",
+        "job_title": "System and process expert",
+        "employment_type": "Full-time",
+        "start_date": {
+          "date": "Nov 2023",
+          "year": 2023,
+          "month": 11,
+          "day": 1,
+          "timestamp": 1698796800
+        },
+        "end_date": {
+          "date": "Dec 2024",
+          "year": 2024,
+          "month": 12,
+          "day": 1,
+          "timestamp": 1733011200
+        },
+        "duration_of_cooperation": 13,
+        "skills": [
+          "BizAgi",
+          "English as a Second Language (ESL)",
+          "Knowledge Management",
+          "Organizational Structure",
+          "Business Process Mapping",
+          "ISO 9001",
+          "Management Information Systems (MIS)",
+          "Enterprise Resource Planning (ERP)",
+          "Strategic Planning",
+          "BPMN"
+        ],
+        "job_description": null
+      },
+      {
+        "company_name": "Geoparsian",
+        "company_url": "https://www.linkedin.com/company/19155258/",
+        "company_id": "19155258",
+        "job_title": "Industrial Engineer",
+        "employment_type": "Full-time",
+        "start_date": {
+          "date": "Mar 2022",
+          "year": 2022,
+          "month": 3,
+          "day": 1,
+          "timestamp": 1646092800
+        },
+        "end_date": {
+          "date": "Jul 2023",
+          "year": 2023,
+          "month": 7,
+          "day": 1,
+          "timestamp": 1688169600
+        },
+        "duration_of_cooperation": 16,
+        "skills": [
+          "English as a Second Language (ESL)",
+          "BPMN",
+          "ISO 9001",
+          "Management Information Systems (MIS)"
+        ],
+        "job_description": "1- maintenance planning\n2- production planning\n3- implementation iso 9001"
+      },
+      {
+        "company_name": "MORVARID PETROCHEMICAL",
+        "company_url": "https://www.linkedin.com/company/100117971/",
+        "company_id": "100117971",
+        "job_title": "Maintenance Planner",
+        "employment_type": "Full-time",
+        "start_date": {
+          "date": "Aug 2021",
+          "year": 2021,
+          "month": 8,
+          "day": 1,
+          "timestamp": 1627776000
+        },
+        "end_date": {
+          "date": "Jan 2023",
+          "year": 2023,
+          "month": 1,
+          "day": 1,
+          "timestamp": 1672531200
+        },
+        "duration_of_cooperation": 17,
+        "skills": [
+          "English as a Second Language (ESL)",
+          "Microsoft Project",
+          "BPMN",
+          "CMMS"
+        ],
+        "job_description": "Planning for preventive maintenance\nRoot cause analysis\nPlanning for overhaul"
+      }
+    ],
+    "educations": [
+      {
+        "school_name": "Azad University (IAU)",
+        "school_url": "https://www.linkedin.com/company/13252923/",
+        "school_id": "13252923",
+        "start_date": {
+          "date": "2016",
+          "year": 2016,
+          "month": 1,
+          "day": 1,
+          "timestamp": 1451606400
+        },
+        "end_date": {
+          "date": "2019",
+          "year": 2019,
+          "month": 1,
+          "day": 1,
+          "timestamp": 1546300800
+        },
+        "major": "Industrial Engineering",
+        "degree": "Master's degree",
+        "duration_of_study": 36
+      },
+      {
+        "school_name": "Azad University (IAU)",
+        "school_url": "https://www.linkedin.com/company/13252923/",
+        "school_id": "13252923",
+        "start_date": {
+          "date": "Sep 2011",
+          "year": 2011,
+          "month": 9,
+          "day": 1,
+          "timestamp": 1314835200
+        },
+        "end_date": {
+          "date": "Jun 2015",
+          "year": 2015,
+          "month": 6,
+          "day": 1,
+          "timestamp": 1433116800
+        },
+        "major": null,
+        "degree": "Bachelor\u2019s degree industrial engineering",
+        "duration_of_study": 45
+      }
+    ],
+    "skills": [
+      "English as a Second Language (ESL)",
+      "CMMS",
+      "Risk Management",
+      "Microsoft Project",
+      "Document Management",
+      "BizAgi",
+      "Business Process Mapping",
+      "ISO 9001",
+      "Strategic Planning",
+      "Enterprise Resource Planning (ERP)",
+      "Organizational Structure",
+      "Knowledge Management",
+      "Management Information Systems (MIS)",
+      "BPMN"
+    ],
+    "recommended_people": [
+      {
+        "first_name": "Poune",
+        "last_name": "Allahverdi",
+        "username": "poune-allahverdi-53a626299",
+        "headline": "Human Resources Specialist",
+        "url": "https://www.linkedin.com/in/poune-allahverdi-53a626299",
+        "profileUrn": "ACoAAEgsZX4BqmUknj2apzVnWcYGbNuah2kQCV0",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQHsGHwCtMQn2g/profile-displayphoto-shrink_800_800/B4DZQgmPLSHUAc-/0/1735713685670?e=1752710400&v=beta&t=PTSOYtACctn7jN2HxCITW4fc2DQLDR7CO7MIYmicltQ"
+      },
+      {
+        "first_name": "Arezoo",
+        "last_name": "Sohrabi",
+        "username": "arezoo-sohrabi-60398051",
+        "headline": "Head of human resource excellence and development department ",
+        "url": "https://www.linkedin.com/in/arezoo-sohrabi-60398051",
+        "profileUrn": "ACoAAAsAB2MBeE5YLNQ2kP3w3YVskez1GN6DZ3Y",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQEoWw3zdqie7A/profile-displayphoto-shrink_100_100/B4DZP.RyUJG0AU-/0/1735137898203?e=1752710400&v=beta&t=m_6Y9Rl-moqNk9EGvvehIaBiCQUS5KMDjKKuGfa4Lwg"
+      },
+      {
+        "first_name": "saeedeh",
+        "last_name": "keramati",
+        "username": "saeedeh-keramati-7b1246a1",
+        "headline": "Senior Specialist at Dr.Abidi Pharmaceuticals",
+        "url": "https://www.linkedin.com/in/saeedeh-keramati-7b1246a1",
+        "profileUrn": "ACoAABWSGPUBzZFSA5rczIWth5sKdqRq8spwXN8"
+      },
+      {
+        "first_name": "Lida",
+        "last_name": "Dabiri",
+        "username": "lida-dabiri-1990",
+        "headline": "CHRO",
+        "url": "https://www.linkedin.com/in/lida-dabiri-1990",
+        "profileUrn": "ACoAACfKpEAB6gdaf81IihcEVz3D8xzw-SCZQzs",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/C4D03AQEqA57Ea-cEVg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1608390396356?e=1752710400&v=beta&t=AkXFP0MghE91tztThBucz0ih_lxpYlC0cIn50Xjmrfo"
+      },
+      {
+        "first_name": "Mojtaba",
+        "last_name": "Sarafzadeh",
+        "username": "mojtaba-sarafzadeh",
+        "headline": null,
+        "url": "https://www.linkedin.com/in/mojtaba-sarafzadeh",
+        "profileUrn": "ACoAAAuAydcBg9L-BFGsI43iYTucr-UzS97yWM0",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFdrjvf44B5gQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707115639605?e=1752710400&v=beta&t=dOPSvDLAdSxb_af4DsBOjoMUeVz4J_Vv1t4vwm1VktA"
+      },
+      {
+        "first_name": "Erfan",
+        "last_name": "Jafari_kamangar",
+        "username": "erfan-jafari-kamangar-9b5603331",
+        "headline": "System & Methods Supervisor at Dr. Abidi Pharmaceuticals",
+        "url": "https://www.linkedin.com/in/erfan-jafari-kamangar-9b5603331",
+        "profileUrn": "ACoAAFOPsdkBlQr6mSsg6APj31rrMQKe-X2mHrI",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D5603AQFN4cHeQJ-2NQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728234632930?e=1752710400&v=beta&t=7b5JfrjbFwI8dRF6g8vhSsY-edmeoZlMKKUissQ0FOo"
+      },
+      {
+        "first_name": "Mohammad",
+        "last_name": "Gholamnezhad",
+        "username": "mohammad-gholamnezhad-441975247",
+        "headline": "Area sales manager at Zarrin Pakhsh",
+        "url": "https://www.linkedin.com/in/mohammad-gholamnezhad-441975247",
+        "profileUrn": "ACoAAD0wdzEBZE14Zgh_DXQNdAmJVCsqRPCHiD4",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/C4D03AQF2xly0GRps2w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1659610798446?e=1752710400&v=beta&t=meBklAEqeWUcSu8VM-d269YZljqwIvx4dj0zNZZgZLc"
+      },
+      {
+        "first_name": "Neda",
+        "last_name": "Mansouri",
+        "username": "neda-mansouri-5a011419a",
+        "headline": "Process Analysis and Design Expert",
+        "url": "https://www.linkedin.com/in/neda-mansouri-5a011419a",
+        "profileUrn": "ACoAAC6lm0gBTrxd2rTRem6r3JAomdMwVw-lRr0",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/C4E03AQG4LxJ4RLYFFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1662973897406?e=1752710400&v=beta&t=KoHCVRsGpXk3_c4x9Koqd1E8-QAhWRzmRjT-cO9MVhQ"
+      },
+      {
+        "first_name": "Elmira",
+        "last_name": "Fazeli",
+        "username": "elmira-fazeli-163607309",
+        "headline": "Planning and Project Control",
+        "url": "https://www.linkedin.com/in/elmira-fazeli-163607309",
+        "profileUrn": "ACoAAE6UCBsBW0zYTyhagWYablYDe50mvSOsXWo",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQG9M_nswU63Vw/profile-displayphoto-shrink_800_800/B4DZT4kbUuG8Ag-/0/1739337087376?e=1752710400&v=beta&t=_CbKe4nEfM7LI2pZxFO-7ikN4BFq7cL5axcVJYNw5VM"
+      },
+      {
+        "first_name": "hamidreza",
+        "last_name": "hoseinzadeh",
+        "username": "hamidreza-hoseinzadeh-0b02052b1",
+        "headline": "Management systems expert in petrochemical industry development management company (pidmco)",
+        "url": "https://www.linkedin.com/in/hamidreza-hoseinzadeh-0b02052b1",
+        "profileUrn": "ACoAAEr1ikQBAbgYdnQLiqxISYzXwi1S-6gnwyw",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQFqB9_uMiE29w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723661158997?e=1752710400&v=beta&t=os3GCIdj3gB3_R8Qyiw6w6SmPXm2zkxOW9piLhCjerY"
+      },
+      {
+        "first_name": "Mohsen",
+        "last_name": "Molaee",
+        "username": "mohsen-molaee-922556131",
+        "headline": "--",
+        "url": "https://www.linkedin.com/in/mohsen-molaee-922556131",
+        "profileUrn": "ACoAACBLjqoByGpFC04ZKuhSd-0hnXmiA9ShNVE",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQGjs9VjqFPzTw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702704265506?e=1752710400&v=beta&t=_VcnPVqCIqlhg_HFuJzatB8vDHcVAp2UalGkLPdB8d0"
+      },
+      {
+        "first_name": "sara",
+        "last_name": "emami",
+        "username": "sara-emami-b2b632365",
+        "headline": "QA/QC Manager at Google",
+        "url": "https://www.linkedin.com/in/sara-emami-b2b632365",
+        "profileUrn": "ACoAAFqvHtMBy3NFYpJmwkFnFrJ9BBjahwDc5kg"
+      },
+      {
+        "first_name": "Eisa",
+        "last_name": "Helali",
+        "username": "eisa-helali-605354317",
+        "headline": "Contact Center Specialist at Mydigipay",
+        "url": "https://www.linkedin.com/in/eisa-helali-605354317",
+        "profileUrn": "ACoAAFBRx2UBu3qvWRtqMqATpzqRyMTPW9A2Y-o",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D5603AQHsEJQZfOMJ5Q/profile-displayphoto-shrink_100_100/B56ZVTzajtGsAU-/0/1740867743088?e=1752710400&v=beta&t=jEzI2qZ5jsDg878j4V6H2553MGUyTmr2QwX7tw89aaU"
+      },
+      {
+        "first_name": "Sepide Sadat",
+        "last_name": "Hoseini",
+        "username": "sepide-sadat-hoseini-7bb748180",
+        "headline": "DBA at UT/LLM at ATU \nSenior Contract Specialist at Persia Oil and Gas Company \n",
+        "url": "https://www.linkedin.com/in/sepide-sadat-hoseini-7bb748180",
+        "profileUrn": "ACoAACrTEn8B_bZPLp_PIEKxV6PFSyQGf-yclhQ",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQGzGmxjRCyYuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702290753387?e=1752710400&v=beta&t=qBX77QZfbgot2QXQZ7VyHuE0hjjLi-PpwvSrLd2URGs"
+      },
+      {
+        "first_name": "Rreza",
+        "last_name": "Goodarzi",
+        "username": "rreza-goodarzi-a1752399",
+        "headline": ".",
+        "url": "https://www.linkedin.com/in/rreza-goodarzi-a1752399",
+        "profileUrn": "ACoAABTmh_MBmcHBPumeMI4eAyQz3fPDxavCTSg",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQFEESx0Y6sUFA/profile-displayphoto-shrink_100_100/B4DZT78sw9HAAY-/0/1739393786903?e=1752710400&v=beta&t=TwPq7-0cb9-ivvC1-2wYDQtyJiryI-I9nn3bkTKRZDU"
+      },
+      {
+        "first_name": "mahdi",
+        "last_name": "alikhani",
+        "username": "mahdi-alikhani-236a377a",
+        "headline": "Head of support contracts at Oil industries Commissioning and Operation Company (OICO)",
+        "url": "https://www.linkedin.com/in/mahdi-alikhani-236a377a",
+        "profileUrn": "ACoAABDh-4oBi4tY_-zzbyj9CSm5dSgWelBQ-H4",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQEgp9EHp8AbEg/profile-displayphoto-shrink_800_800/B4DZYZOsvbHIAk-/0/1744180006962?e=1752710400&v=beta&t=gK7iQbxWmJDVm71BCFQ3hpoPheKWZTgIvz4PU7_Yc80"
+      },
+      {
+        "first_name": "Zahra",
+        "last_name": "Rahel",
+        "username": "zahra-rahel-277a031a9",
+        "headline": "Business process analyst in Tejarat bank",
+        "url": "https://www.linkedin.com/in/zahra-rahel-277a031a9",
+        "profileUrn": "ACoAADC8nbsBWr5yJC_Lc6-YaSdX7LyZ38T7y14",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4E03AQEBCDxElUGUFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727781838443?e=1752710400&v=beta&t=g4VEZ4jQ5fa-KGZMiyxWpOtWLhYEwLzdkOyqx0VnCqs"
+      },
+      {
+        "first_name": "Mehran",
+        "last_name": "Fereidooni",
+        "username": "mehran-fereidooni-769402203",
+        "headline": "Senior Business Process Analyst at Dana Energy",
+        "url": "https://www.linkedin.com/in/mehran-fereidooni-769402203",
+        "profileUrn": "ACoAADPZ8cEBa2kCGW4qDQ2JHNGmle0IQ03AZmQ",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQEtk8QLtl4svw/profile-displayphoto-shrink_400_400/B4DZZJ79F4H4Ag-/0/1744997181894?e=1752710400&v=beta&t=KmV3ZZQoRdlqtKspEnxpjdnHc92k0qaS3yyd6p3bRe4"
+      },
+      {
+        "first_name": "Mahdi",
+        "last_name": "Gorjian",
+        "username": "mahdi-gorjian-8732a5a6",
+        "headline": "Business Development, Tenders Specialist, Strategic Studies Expert",
+        "url": "https://www.linkedin.com/in/mahdi-gorjian-8732a5a6",
+        "profileUrn": "ACoAABZ3yJcBpBcEwDCWwfusbkGs8jOgZ3OrxIA",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4D03AQEUrP8tfytFzg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731243042349?e=1752710400&v=beta&t=i58XfTfQfciVzXwcxcoh8lfuRaeLmY_1YZyE0fUhLJs"
+      },
+      {
+        "first_name": "Alireza",
+        "last_name": "Asefi",
+        "username": "alireza-asefi-13605381",
+        "headline": "Anwendungsentwickler (Software Developer)",
+        "url": "https://www.linkedin.com/in/alireza-asefi-13605381",
+        "profileUrn": "ACoAABFFOfoBmQZxeSu4N8kLjjiMIiWEWDKmagM",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/C5603AQH-ixv4MxlM0Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1576656020333?e=1752710400&v=beta&t=ghTkAYFOoTc3agWhBZjg5P8xQDLUD9wtHbc9biNQvpo"
+      },
+      {
+        "first_name": "Zahra",
+        "last_name": "Koliaei",
+        "username": "zkoliaei",
+        "headline": null,
+        "url": "https://www.linkedin.com/in/zkoliaei",
+        "profileUrn": "ACoAADkoTdYBu8r1l_DNdL3Xdu8gs_V-WyJUF5Q",
+        "profile_image_url": "https://media.licdn.com/dms/image/v2/D4E03AQHm59DBIrWoFQ/profile-displayphoto-shrink_800_800/B4EZVyS8quHMAc-/0/1741379325512?e=1752710400&v=beta&t=OPFIwZ7Rt7R0UuBBgIYX3CuQJhNIPt8-HgENbd3ynCc"
+      }
+    ],
+    "recommendations": [
+      {
+        "type": "newsletter",
+        "name": "The Economist\u2019s week ahead",
+        "url": "https://www.linkedin.com/newsletters/6952192627500871680",
+        "id": "6952192627500871680",
+        "description": "The trends and stories our digital newsroom expects to dominate the coming days"
+      },
+      {
+        "type": "newsletter",
+        "name": "Inc. This Morning",
+        "url": "https://www.linkedin.com/newsletters/7115414843045617664",
+        "id": "7115414843045617664",
+        "description": "Your weekly brief for launching, running, and scaling a business."
+      },
+      {
+        "type": "newsletter",
+        "name": "HBR Management Tip of the Week",
+        "url": "https://www.linkedin.com/newsletters/6911744063708745728",
+        "id": "6911744063708745728",
+        "description": "Quick, practical management advice to help you do your job better."
+      },
+      {
+        "type": "newsletter",
+        "name": "The Startup Conversation",
+        "url": "https://www.linkedin.com/newsletters/6465319540183179264",
+        "id": "6465319540183179264",
+        "description": "Daily conversations with college students and recent graduates on the challenges they face in building their companies"
+      },
+      {
+        "type": "newsletter",
+        "name": "Stay Informed with Ian Bremmer",
+        "url": "https://www.linkedin.com/newsletters/6641776014072524800",
+        "id": "6641776014072524800",
+        "description": "Helping you make sense of global news"
+      },
+      {
+        "type": "newsletter",
+        "name": "Ask Richard",
+        "url": "https://www.linkedin.com/newsletters/6792750480419241984",
+        "id": "6792750480419241984",
+        "description": "A place where you can ask me anything, and we can learn from one another."
+      },
+      {
+        "type": "newsletter",
+        "name": "Career Bites",
+        "url": "https://www.linkedin.com/newsletters/7031384191246241793",
+        "id": "7031384191246241793",
+        "description": "Bite-sized tips to supercharge your career in 3 minutes or less."
+      },
+      {
+        "type": "newsletter",
+        "name": "The January Money Challenge",
+        "url": "https://www.linkedin.com/newsletters/7146240279019229184",
+        "id": "7146240279019229184",
+        "description": "Business Insider has the tools you need to tackle debt, grow your savings, build a budget, and more in 2025."
+      },
+      {
+        "type": "newsletter",
+        "name": "Overcoming Overwork",
+        "url": "https://www.linkedin.com/newsletters/7095462012045950976",
+        "id": "7095462012045950976",
+        "description": "A six-part guide to unlearning an \u201calways on\u201d work mindset. "
+      },
+      {
+        "type": "newsletter",
+        "name": "JT Talks Jobs",
+        "url": "https://www.linkedin.com/newsletters/6541349361220149249",
+        "id": "6541349361220149249",
+        "description": "Job search & career advice for a changing workplace."
+      },
+      {
+        "type": "newsletter",
+        "name": "Inc. 5000",
+        "url": "https://www.linkedin.com/newsletters/7115782519026802688",
+        "id": "7115782519026802688",
+        "description": "The weekly rundown for the leaders of America\u2019s Fastest Growing Companies."
+      },
+      {
+        "type": "school",
+        "name": "Azad University (IAU)",
+        "url": "https://www.linkedin.com/school/13252923/",
+        "id": "13252923",
+        "followers": "69402"
+      },
+      {
+        "type": "school",
+        "name": "ArakUTofficial",
+        "url": "https://www.linkedin.com/school/15093742/",
+        "id": "15093742",
+        "followers": "1958"
+      },
+      {
+        "type": "company",
+        "name": "Harvard Business Review",
+        "url": "https://www.linkedin.com/company/1649/",
+        "id": "1649",
+        "followers": "14524327"
+      },
+      {
+        "type": "company",
+        "name": "Inc. Magazine",
+        "url": "https://www.linkedin.com/company/7587/",
+        "id": "7587",
+        "followers": "3027868"
+      },
+      {
+        "type": "company",
+        "name": "MAPNA Group",
+        "url": "https://www.linkedin.com/company/69405/",
+        "id": "69405",
+        "followers": "94889"
+      },
+      {
+        "type": "company",
+        "name": "The Economist",
+        "url": "https://www.linkedin.com/company/166368/",
+        "id": "166368",
+        "followers": "13043914"
+      },
+      {
+        "type": "company",
+        "name": "MAPNA Turbine Engineering and Manufacturing Co.(TUGA)",
+        "url": "https://www.linkedin.com/company/372025/",
+        "id": "372025",
+        "followers": "41772"
+      },
+      {
+        "type": "company",
+        "name": "Business Insider",
+        "url": "https://www.linkedin.com/company/683279/",
+        "id": "683279",
+        "followers": "10934836"
+      },
+      {
+        "type": "company",
+        "name": "Namvaran Consulting Engineers, Managers",
+        "url": "https://www.linkedin.com/company/1580567/",
+        "id": "1580567",
+        "followers": "18240"
+      },
+      {
+        "type": "company",
+        "name": "Monenco Iran Consulting Engineers",
+        "url": "https://www.linkedin.com/company/2287952/",
+        "id": "2287952",
+        "followers": "40841"
+      },
+      {
+        "type": "company",
+        "name": "OIEC Group",
+        "url": "https://www.linkedin.com/company/2301144/",
+        "id": "2301144",
+        "followers": "27867"
+      },
+      {
+        "type": "company",
+        "name": "Cobel Darou",
+        "url": "https://www.linkedin.com/company/5058786/",
+        "id": "5058786",
+        "followers": "11550"
+      },
+      {
+        "type": "company",
+        "name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+        "url": "https://www.linkedin.com/company/9279571/",
+        "id": "9279571",
+        "followers": "22281"
+      },
+      {
+        "type": "company",
+        "name": "Rahbord Energy Design & Development Eng. Co.",
+        "url": "https://www.linkedin.com/company/10209666/",
+        "id": "10209666",
+        "followers": "5794"
+      },
+      {
+        "type": "company",
+        "name": "Persia Oil and Gas Industry Development Company",
+        "url": "https://www.linkedin.com/company/11026650/",
+        "id": "11026650",
+        "followers": "10997"
+      },
+      {
+        "type": "company",
+        "name": "\u0645\u062f\u0631\u0633\u0647 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0641\u0631\u0627\u06cc\u0646\u062f",
+        "url": "https://www.linkedin.com/company/12582249/",
+        "id": "12582249",
+        "followers": "2641"
+      },
+      {
+        "type": "company",
+        "name": "Daneshkargroup | \u062f\u0627\u0646\u0634\u06a9\u0627\u0631",
+        "url": "https://www.linkedin.com/company/13053455/",
+        "id": "13053455",
+        "followers": "23770"
+      },
+      {
+        "type": "company",
+        "name": "Job Vision (\u062c\u0627\u0628 \u0648\u06cc\u0698\u0646)",
+        "url": "https://www.linkedin.com/company/13213221/",
+        "id": "13213221",
+        "followers": "311525"
+      },
+      {
+        "type": "company",
+        "name": "Azad University (IAU)",
+        "url": "https://www.linkedin.com/company/13252923/",
+        "id": "13252923",
+        "followers": "69402"
+      },
+      {
+        "type": "company",
+        "name": "Industrial Knowledge",
+        "url": "https://www.linkedin.com/company/14462107/",
+        "id": "14462107",
+        "followers": "422115"
+      },
+      {
+        "type": "company",
+        "name": "ArakUTofficial",
+        "url": "https://www.linkedin.com/company/15093742/",
+        "id": "15093742",
+        "followers": "1958"
+      },
+      {
+        "type": "company",
+        "name": "MAPNA Power Services Co.",
+        "url": "https://www.linkedin.com/company/43190035/",
+        "id": "43190035",
+        "followers": "26447"
+      }
+    ],
+    "experience_info": {
+      "experiences": [
+        {
+          "company_name": "Cobel Darou",
+          "company_url": "https://www.linkedin.com/company/5058786/",
+          "company_id": "5058786",
+          "title": "System and methods expert",
+          "employment_type": "Full-time",
+          "start_date": {
+            "date": "Dec 2024",
+            "year": 2024,
+            "month": 12,
+            "day": 1,
+            "timestamp": 1733011200
+          },
+          "end_date": null,
+          "duration_of_cooperation": 5,
+          "skills": [
+            "BPMN",
+            "BizAgi",
+            "Business Process Mapping",
+            "Document Management",
+            "English as a Second Language (ESL)",
+            "ISO 9001",
+            "Knowledge Management",
+            "Risk Management",
+            "Strategic Planning"
+          ],
+          "job_description": null,
+          "location": "Tehran, Tehran Province, Iran",
+          "work_type": "On-site",
+          "location_parsed": {
+            "city": "Tehran",
+            "state": "Tehran Province",
+            "country": "Iran"
+          },
+          "childs": [
+            {
+              "company_name": "Cobel Darou",
+              "company_url": "https://www.linkedin.com/company/5058786/",
+              "company_id": "5058786",
+              "job_title": "System and methods expert",
+              "employment_type": "Full-time",
+              "start_date": {
+                "date": "Dec 2024",
+                "year": 2024,
+                "month": 12,
+                "day": 1,
+                "timestamp": 1733011200
+              },
+              "end_date": null,
+              "duration_of_cooperation": 5,
+              "skills": [
+                "BPMN",
+                "BizAgi",
+                "Business Process Mapping",
+                "Document Management",
+                "English as a Second Language (ESL)",
+                "ISO 9001",
+                "Knowledge Management",
+                "Risk Management",
+                "Strategic Planning"
+              ],
+              "job_description": null
+            }
+          ],
+          "parentId": null
+        },
+        {
+          "company_name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+          "company_url": "https://www.linkedin.com/company/9279571/",
+          "company_id": "9279571",
+          "title": "System and process expert",
+          "employment_type": "Full-time",
+          "start_date": {
+            "date": "Nov 2023",
+            "year": 2023,
+            "month": 11,
+            "day": 1,
+            "timestamp": 1698796800
+          },
+          "end_date": {
+            "date": "Dec 2024",
+            "year": 2024,
+            "month": 12,
+            "day": 1,
+            "timestamp": 1733011200
+          },
+          "duration_of_cooperation": 13,
+          "skills": [
+            "BizAgi",
+            "English as a Second Language (ESL)",
+            "Knowledge Management",
+            "Organizational Structure",
+            "Business Process Mapping",
+            "ISO 9001",
+            "Management Information Systems (MIS)",
+            "Enterprise Resource Planning (ERP)",
+            "Strategic Planning",
+            "BPMN"
+          ],
+          "job_description": null,
+          "location": "Tehran, Tehran Province, Iran",
+          "work_type": "On-site",
+          "location_parsed": {
+            "city": "Tehran",
+            "state": "Tehran Province",
+            "country": "Iran"
+          },
+          "childs": [
+            {
+              "company_name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+              "company_url": "https://www.linkedin.com/company/9279571/",
+              "company_id": "9279571",
+              "job_title": "System and process expert",
+              "employment_type": "Full-time",
+              "start_date": {
+                "date": "Nov 2023",
+                "year": 2023,
+                "month": 11,
+                "day": 1,
+                "timestamp": 1698796800
+              },
+              "end_date": {
+                "date": "Dec 2024",
+                "year": 2024,
+                "month": 12,
+                "day": 1,
+                "timestamp": 1733011200
+              },
+              "duration_of_cooperation": 13,
+              "skills": [
+                "BizAgi",
+                "English as a Second Language (ESL)",
+                "Knowledge Management",
+                "Organizational Structure",
+                "Business Process Mapping",
+                "ISO 9001",
+                "Management Information Systems (MIS)",
+                "Enterprise Resource Planning (ERP)",
+                "Strategic Planning",
+                "BPMN"
+              ],
+              "job_description": null
+            }
+          ],
+          "parentId": null
+        },
+        {
+          "company_name": "Geoparsian",
+          "company_url": "https://www.linkedin.com/company/19155258/",
+          "company_id": "19155258",
+          "title": "Industrial Engineer",
+          "employment_type": "Full-time",
+          "start_date": {
+            "date": "Mar 2022",
+            "year": 2022,
+            "month": 3,
+            "day": 1,
+            "timestamp": 1646092800
+          },
+          "end_date": {
+            "date": "Jul 2023",
+            "year": 2023,
+            "month": 7,
+            "day": 1,
+            "timestamp": 1688169600
+          },
+          "duration_of_cooperation": 16,
+          "skills": [
+            "English as a Second Language (ESL)",
+            "BPMN",
+            "ISO 9001",
+            "Management Information Systems (MIS)"
+          ],
+          "job_description": "1- maintenance planning\n2- production planning\n3- implementation iso 9001",
+          "location": "Tehran Province, Iran",
+          "work_type": "On-site",
+          "location_parsed": {
+            "city": "Tehran Province",
+            "state": null,
+            "country": "Iran"
+          },
+          "childs": [
+            {
+              "company_name": "Geoparsian",
+              "company_url": "https://www.linkedin.com/company/19155258/",
+              "company_id": "19155258",
+              "job_title": "Industrial Engineer",
+              "employment_type": "Full-time",
+              "start_date": {
+                "date": "Mar 2022",
+                "year": 2022,
+                "month": 3,
+                "day": 1,
+                "timestamp": 1646092800
+              },
+              "end_date": {
+                "date": "Jul 2023",
+                "year": 2023,
+                "month": 7,
+                "day": 1,
+                "timestamp": 1688169600
+              },
+              "duration_of_cooperation": 16,
+              "skills": [
+                "English as a Second Language (ESL)",
+                "BPMN",
+                "ISO 9001",
+                "Management Information Systems (MIS)"
+              ],
+              "job_description": "1- maintenance planning\n2- production planning\n3- implementation iso 9001"
+            }
+          ],
+          "parentId": null
+        },
+        {
+          "company_name": "MORVARID PETROCHEMICAL",
+          "company_url": "https://www.linkedin.com/company/100117971/",
+          "company_id": "100117971",
+          "title": "Maintenance Planner",
+          "employment_type": "Full-time",
+          "start_date": {
+            "date": "Aug 2021",
+            "year": 2021,
+            "month": 8,
+            "day": 1,
+            "timestamp": 1627776000
+          },
+          "end_date": {
+            "date": "Jan 2023",
+            "year": 2023,
+            "month": 1,
+            "day": 1,
+            "timestamp": 1672531200
+          },
+          "duration_of_cooperation": 17,
+          "skills": [
+            "English as a Second Language (ESL)",
+            "Microsoft Project",
+            "BPMN",
+            "CMMS"
+          ],
+          "job_description": "Planning for preventive maintenance\nRoot cause analysis\nPlanning for overhaul",
+          "location": "Asalouyeh, Bushehr Province, Iran",
+          "work_type": "On-site",
+          "location_parsed": {
+            "city": "Asalouyeh",
+            "state": "Bushehr Province",
+            "country": "Iran"
+          },
+          "childs": [
+            {
+              "company_name": "MORVARID PETROCHEMICAL",
+              "company_url": "https://www.linkedin.com/company/100117971/",
+              "company_id": "100117971",
+              "job_title": "Maintenance Planner",
+              "employment_type": "Full-time",
+              "start_date": {
+                "date": "Aug 2021",
+                "year": 2021,
+                "month": 8,
+                "day": 1,
+                "timestamp": 1627776000
+              },
+              "end_date": {
+                "date": "Jan 2023",
+                "year": 2023,
+                "month": 1,
+                "day": 1,
+                "timestamp": 1672531200
+              },
+              "duration_of_cooperation": 17,
+              "skills": [
+                "English as a Second Language (ESL)",
+                "Microsoft Project",
+                "BPMN",
+                "CMMS"
+              ],
+              "job_description": "Planning for preventive maintenance\nRoot cause analysis\nPlanning for overhaul"
+            }
+          ],
+          "parentId": null
+        }
+      ],
+      "total_duration_of_cooperation": 40,
+      "last_job_title": "System and process expert",
+      "last_company_id": "9279571",
+      "last_company_name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+      "last_company_url": "https://www.linkedin.com/company/9279571/",
+      "last_job_start_date": {
+        "date": "Nov 2023",
+        "year": 2023,
+        "month": 11,
+        "day": 1,
+        "timestamp": 1698796800
+      },
+      "last_job_end_date": {
+        "date": "Dec 2024",
+        "year": 2024,
+        "month": 12,
+        "day": 1,
+        "timestamp": 1733011200
+      },
+      "earliest_job_start_date": {
+        "date": "Aug 2021",
+        "year": 2021,
+        "month": 8,
+        "day": 1,
+        "timestamp": 1627776000
+      },
+      "companies_count": 4,
+      "last_job_company_name": "Oil Industries\u2019 Commissioning and Operation Company (OICO)",
+      "last_job_company_url": "https://www.linkedin.com/company/9279571/",
+      "last_job_company_id": "9279571",
+      "last_job_job_title": "System and process expert",
+      "last_job_employment_type": "Full-time",
+      "last_job_duration_of_cooperation": 13,
+      "last_job_skills": [
+        "BizAgi",
+        "English as a Second Language (ESL)",
+        "Knowledge Management",
+        "Organizational Structure",
+        "Business Process Mapping",
+        "ISO 9001",
+        "Management Information Systems (MIS)",
+        "Enterprise Resource Planning (ERP)",
+        "Strategic Planning",
+        "BPMN"
+      ],
+      "last_job_job_description": null
+    },
+    "education_info": {
+      "earliest_education_start_date": {
+        "date": "Sep 2011",
+        "year": 2011,
+        "month": 9,
+        "day": 1,
+        "timestamp": 1314835200
+      },
+      "latest_school_name": "Azad University (IAU)",
+      "latest_school_id": "13252923",
+      "latest_school_url": "https://www.linkedin.com/company/13252923/",
+      "latest_degree": "Master's degree",
+      "latest_major": "Industrial Engineering",
+      "latest_education_start_date": {
+        "date": "2016",
+        "year": 2016,
+        "month": 1,
+        "day": 1,
+        "timestamp": 1451606400
+      },
+      "latest_education_end_date": {
+        "date": "2019",
+        "year": 2019,
+        "month": 1,
+        "day": 1,
+        "timestamp": 1546300800
+      }
+    },
+    "scraped_at": {
+      "duration": 5.321423053741455,
+      "timestamp": 1747046723,
+      "datetime": {
+        "$date": "2025-05-12T10:45:23.832Z"
+      },
+      "request_times": {
+        "req1": 1.6441540718078613,
+        "req2": 1.0397298336029053,
+        "req3": 1.573075532913208,
+        "req4": 1.1187057495117188,
+        "req5": 1.500272274017334,
+        "req6": 2.4944405555725098,
+        "req7": 1.4605731964111328,
+        "req8": null
+      }
+    },
+    "saved_at": {
+      "$date": "2025-05-12T10:45:30.292Z"
+    }
+  }
+]
