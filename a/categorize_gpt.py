@@ -23,6 +23,7 @@ for doc in documents:
         if job_title:
             job_titles.append(job_title)
 
+
 # Prepare prompt to categorize job titles
 def get_categories_for_job_titles(job_titles):
     prompt = (
