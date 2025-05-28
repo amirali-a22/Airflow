@@ -29,3 +29,4 @@ typing-inspection==0.4.1
 typing_extensions==4.13.2
 urllib3==1.26.20
 yarl==1.20.0
+redis~=6.2.0
