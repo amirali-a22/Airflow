@@ -1,6 +1,6 @@
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.0.2
     container_name: elasticsearch
     environment:
       - discovery.type=single-node
@@ -18,7 +18,7 @@ services:
       - airflow-net   # Use the shared network here
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:7.10.2
+    image: docker.elastic.co/kibana/kibana:9.0.2
     container_name: kibana
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
