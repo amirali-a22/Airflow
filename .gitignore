@@ -26,3 +26,5 @@ venv/
 *.bak
 
 mongo-data
+
+.qodo

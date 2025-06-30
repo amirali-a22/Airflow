@@ -1,4 +1,5 @@
 import csv
+import pprint
 from datetime import datetime
 from datetime import timedelta
 from pathlib import Path
@@ -110,13 +111,18 @@ def retrieve_batch(batch_info):
 
 
 # Load job title to category mapping from CSV
-csv_path = Path(__file__).parent / "job_categories.csv"
+csv_path = Path(__file__).parent / "categories.csv"
 job_title_to_category = {}
-with open(csv_path, newline='') as f:
+with open(csv_path, newline='', encoding='utf-8') as f:
     reader = csv.DictReader(f)
+    subcategory_columns = [col for col in reader.fieldnames if col.startswith('Subcategory')]
     for row in reader:
-        job_title_to_category[row['job_title']] = row['category']
-
+        category = row.get('Category', '').strip()
+        for col in subcategory_columns:
+            subcategory = row.get(col, '') or ''  # Replace None with empty string
+            subcategory = subcategory.strip()
+            if subcategory:
+                job_title_to_category[subcategory] = category
 
 @task
 def process_batch(batch):
@@ -127,12 +133,13 @@ def process_batch(batch):
         full_name = f"{first_name} {last_name}".strip()
         last_job_title = doc.get('experience_info', {}).get('last_job_title', '')
         category = job_title_to_category.get(last_job_title, 'Others')
-
+        # Create es_doc with the entire doc and add category
         es_doc = {
             "_op_type": "index",
             "_index": "v2_optimized_dag",
-            "_id": str(doc.get('_id')),
+            "_id": str(doc.pop('_id')),
             "_source": {
+                **doc,  # Include all fields from the input doc
                 "full_name": full_name,
                 "first_name": first_name,
                 "last_name": last_name,
