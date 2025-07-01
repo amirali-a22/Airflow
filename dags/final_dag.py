@@ -175,7 +175,7 @@ def calculate_batches():
     db = client['airflow']
     collection = db['airflow_collection']
 
-    total_docs = 10
+    total_docs = 1000
     # total_docs = collection.count_documents({})
     batch_offsets = [(i, min(BATCH_SIZE, total_docs - i)) for i in range(0, total_docs, BATCH_SIZE)]
 
