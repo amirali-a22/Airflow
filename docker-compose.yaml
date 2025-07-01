@@ -126,7 +126,6 @@ services:
       - ./dags:/opt/airflow/dags
     ports:
       - "8080:8080"
-    user: airflow
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
