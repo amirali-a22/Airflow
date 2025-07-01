@@ -247,7 +247,16 @@ services:
         fi
         mkdir -p /sources/logs /sources/dags /sources/plugins
         chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
-        exec /entrypoint airflow version
+        exec /entrypoint bash -c "
+          airflow db upgrade &&
+          airflow users create \
+            --username \$${_AIRFLOW_WWW_USER_USERNAME:-airflow} \
+            --firstname Admin \
+            --lastname User \
+            --role Admin \
+            --email admin@example.com \
+            --password \$${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+        "
     # yamllint enable rule:line-length
     environment:
       <<: *airflow-common-env
