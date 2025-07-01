@@ -1,5 +1,4 @@
 import csv
-import pprint
 from datetime import datetime
 from datetime import timedelta
 from pathlib import Path
@@ -15,6 +14,8 @@ from elasticsearch.helpers import bulk
 from pymongo import MongoClient
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
+
+from env import env
 
 # Batch size configuration
 BATCH_SIZE = 1000  # Process 1000 documents per batch
@@ -124,6 +125,7 @@ with open(csv_path, newline='', encoding='utf-8') as f:
             if subcategory:
                 job_title_to_category[subcategory] = category
 
+
 @task
 def process_batch(batch):
     actions = []
@@ -155,7 +157,8 @@ def process_batch(batch):
 # Task 3: Save one batch to Elasticsearch
 @task
 def save_batch(actions):
-    es = Elasticsearch(hosts=["http://elasticsearch:9200"])
+    ES_URL = env("ELASTIC_URL")
+    es = Elasticsearch(hosts=[ES_URL])
     if actions:
         success, failed = bulk(es, actions)
         print(f"Batch indexed: {success} documents successful, {failed} failed")
@@ -170,10 +173,12 @@ def save_batch(actions):
 # Task 0: Calculate batch offsets
 @task
 def calculate_batches():
-    mongo_uri = "mongodb://admin:admin@mongo:27017/"
+    mongo_uri = env("MONGO_URL")
     client = MongoClient(mongo_uri)
-    db = client['airflow']
-    collection = db['airflow_collection']
+    db = client[env("MONGO_DB")]
+    # db = client['airflow']
+    # collection = db['airflow_collection']
+    collection = db[env("MONGO_COLLECTION")]
 
     total_docs = 1000
     # total_docs = collection.count_documents({})
