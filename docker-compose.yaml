@@ -121,7 +121,7 @@ services:
       - airflow-net
   airflow-webserver:
     <<: *airflow-common
-    command: webserver
+    command: api-server
     volumes:
       - ./dags:/opt/airflow/dags
     ports:
