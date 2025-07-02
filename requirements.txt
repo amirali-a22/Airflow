@@ -4,14 +4,14 @@ aiosqlite==0.21.0
 alembic==1.15.2
 annotated-types==0.7.0
 anyio==4.9.0
-apache-airflow==3.0.1
-apache-airflow-core==3.0.1
+apache-airflow==3.0.2
+apache-airflow-core==3.0.2
 apache-airflow-providers-common-compat==1.6.1
 apache-airflow-providers-common-io==1.5.4
 apache-airflow-providers-common-sql==1.27.0
 apache-airflow-providers-smtp==2.0.3
 apache-airflow-providers-standard==1.1.0
-apache-airflow-task-sdk==1.0.1
+apache-airflow-task-sdk==1.0.2
 argcomplete==3.6.2
 asgiref==3.8.1
 attrs==25.3.0
@@ -104,7 +104,7 @@ SQLAlchemy-JSONField==1.0.2
 SQLAlchemy-Utils==0.41.2
 sqlparse==0.5.3
 starlette==0.46.2
-structlog==25.3.0
+structlog==25.4.0
 svcs==25.1.0
 tabulate==0.9.0
 tenacity==9.1.2
@@ -117,7 +117,7 @@ typing_extensions==4.13.2
 tzdata==2025.2
 uc-micro-py==1.0.3
 universal_pathlib==0.2.6
-urllib3==1.26.20
+urllib3
 uuid6==2024.7.10
 uvicorn==0.34.2
 uvloop==0.21.0
