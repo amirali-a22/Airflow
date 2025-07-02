@@ -47,7 +47,6 @@ def read_and_save_fullname():
 with DAG(
         dag_id='mongo_to_elastic_fullname',
         start_date=datetime(2025, 1, 1),
-        schedule_interval=None,  # manual trigger
         catchup=False,
         tags=["mongo", "elastic", "example"]
 ) as dag:

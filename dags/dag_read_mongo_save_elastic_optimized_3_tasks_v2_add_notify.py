@@ -5,7 +5,7 @@ from airflow.decorators import task
 from airflow.models import TaskInstance
 from airflow.models import Variable
 from airflow.operators.python import PythonOperator
-from airflow.utils.db import create_session
+from airflow.utils.session import create_session
 from airflow.utils.trigger_rule import TriggerRule
 from bson import ObjectId
 from elasticsearch import Elasticsearch
@@ -167,7 +167,6 @@ def calculate_batches():
 with DAG(
         dag_id='mongo_to_elastic_fullname_optimized_3_tasks_v2_notify',
         start_date=datetime(2025, 1, 1),
-        schedule_interval=None,  # Manual trigger
         catchup=False,
         tags=["mongo", "elastic", "batch", "dynamic"]
 ) as dag:
@@ -188,7 +187,6 @@ with DAG(
         task_id="notify_failure",
         python_callable=notify,
         trigger_rule=TriggerRule.ONE_FAILED,  # Run if *any* upstream task failed
-        provide_context=True,  # Pass Airflow context to the notify function
         dag=dag,
     )
 

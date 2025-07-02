@@ -17,7 +17,6 @@ def print_message():
 with DAG(
         dag_id='my_dag',
         start_date=datetime(2025, 1, 1),
-        schedule_interval='*/10 * * * * *',  # Run every 10 seconds
         catchup=False,
 ) as dag:
     # BashOperator task using function

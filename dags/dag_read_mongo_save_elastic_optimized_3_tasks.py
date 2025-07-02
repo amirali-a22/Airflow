@@ -80,27 +80,23 @@ def bulk_insert_to_elastic(**context):
 with DAG(
     dag_id='mongo_to_elastic_fullname_optimized_3_tasks',
     start_date=datetime(2025, 1, 1),
-    schedule_interval=None,  # manual trigger
     catchup=False,
     tags=["mongo", "elastic", "optimized"]
 ) as dag:
 
     retrieve_docs_task = PythonOperator(
         task_id='retrieve_documents_from_mongo',
-        python_callable=retrieve_documents_from_mongo,
-        provide_context=True
+        python_callable=retrieve_documents_from_mongo
     )
 
     process_docs_task = PythonOperator(
         task_id='process_documents_for_elastic',
-        python_callable=process_documents_for_elastic,
-        provide_context=True
+        python_callable=process_documents_for_elastic
     )
 
     bulk_insert_task = PythonOperator(
         task_id='bulk_insert_to_elastic',
-        python_callable=bulk_insert_to_elastic,
-        provide_context=True
+        python_callable=bulk_insert_to_elastic
     )
 
     retrieve_docs_task >> process_docs_task >> bulk_insert_task

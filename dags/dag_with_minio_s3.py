@@ -14,7 +14,6 @@
 # with DAG(
 #     dag_id='dag_with_minio_s3_v02',
 #     start_date=datetime(2022, 2, 12),
-#     schedule_interval='@daily',
 #     default_args=default_args
 # ) as dag:
 #     task1 = S3KeySensor(

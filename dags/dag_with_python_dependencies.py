@@ -25,7 +25,6 @@ with DAG(
     default_args=default_args,
     dag_id="dag_with_python_dependencies_v03",
     start_date=datetime(2021, 10, 12),
-    schedule_interval='@daily'
 ) as dag:
     task1 = PythonOperator(
         task_id='get_sklearn',

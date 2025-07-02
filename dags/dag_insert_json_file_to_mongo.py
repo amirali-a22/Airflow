@@ -54,7 +54,6 @@ def insert_json_to_mongo():
 with DAG(
         dag_id='insert_json_to_mongo',
         start_date=datetime(2025, 1, 1),
-        schedule_interval=None,  # Run on demand
         catchup=False,
         tags=["mongo", "insert", "json"]
 ) as dag:

@@ -46,8 +46,7 @@ def postgres_to_s3(ds_nodash, next_ds_nodash):
 with DAG(
     dag_id="dag_with_postgres_hooks_v04",
     default_args=default_args,
-    start_date=datetime(2022, 4, 30),
-    schedule_interval='@daily'
+    start_date=datetime(2022, 4, 30)
 ) as dag:
     task1 = PythonOperator(
         task_id="postgres_to_s3",

@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 with DAG(
     dag_id="simple_catchup_mapping",
     start_date=datetime(2025, 5, 14),  # Start 2 days ago
-    schedule_interval="@daily",  # Run daily
     catchup=True,  # Process missed runs
 ) as dag:
 

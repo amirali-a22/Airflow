@@ -92,7 +92,6 @@ def calculate_batches():
 with DAG(
     dag_id='mongo_to_elastic_fullname_optimized_3_tasks_v2',
     start_date=datetime(2025, 1, 1),
-    schedule_interval=None,  # Manual trigger
     catchup=False,
     tags=["mongo", "elastic", "batch", "dynamic"]
 ) as dag:

@@ -22,7 +22,6 @@ def test_elasticsearch_connection():
 with DAG(
         dag_id='test_mongo_elastic_connection',
         start_date=datetime(2025, 1, 1),
-        schedule_interval=None,
         catchup=False,
         tags=["test", "mongo", "elastic"]
 ) as dag:
