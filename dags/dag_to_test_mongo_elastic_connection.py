@@ -1,3 +1,5 @@
+import os
+
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
@@ -6,7 +8,8 @@ from elasticsearch import Elasticsearch
 
 
 def test_mongo_connection():
-    mongo_uri = "mongodb://admin:admin@mongo:27017/"
+    mongo_uri = os.getenv("MONGO_URL")
+    print("MONGO_URL: ", mongo_uri)
     client = MongoClient(mongo_uri)
     dbs = client.list_database_names()
     print("MongoDB databases:", dbs)
