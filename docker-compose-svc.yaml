@@ -6,7 +6,8 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false  # Disable security
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  # Limit memory usage
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g  # 👈 Set heap size to 1GB fixed
     ulimits:
       memlock:
         soft: -1
