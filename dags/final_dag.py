@@ -29,6 +29,32 @@ def serialize_doc(doc):
 
 
 @task
+def maybe_drop_index(**kwargs):
+    drop_index_flag = kwargs["params"].get("drop_index", False)
+    if not drop_index_flag:
+        print("🟡 drop_index is False or not set. Skipping index deletion.")
+        return
+
+    ELASTIC_URL = os.getenv("ELASTIC_URL")
+    index_name = "v2_optimized_dag"
+
+    if not ELASTIC_URL:
+        raise ValueError("ELASTIC_URL environment variable not set")
+
+    es = Elasticsearch(ELASTIC_URL)
+    try:
+        if es.indices.exists(index=index_name):
+            es.indices.delete(index=index_name)
+            print(f"🧹 Deleted Elasticsearch index: {index_name}")
+        else:
+            print(f"ℹ️ Index {index_name} does not exist. Nothing to delete.")
+    except Exception as e:
+        print(f"❌ Failed to delete index {index_name}: {e}")
+    finally:
+        es.close()
+
+
+@task
 def print_env():
     import os
     print("🔍 ENV DEBUG START")
@@ -143,7 +169,7 @@ def save_batch(actions):
 
 
 @task
-def calculate_batches():
+def calculate_batches(**kwargs):
     mongo_uri = os.getenv("MONGO_URL")
     db_name = os.getenv("MONGO_DB")
     collection_name = os.getenv("MONGO_COLLECTION")
@@ -152,8 +178,14 @@ def calculate_batches():
 
     client = MongoClient(mongo_uri)
     collection = client[db_name][collection_name]
+    total_docs_param = kwargs['params'].get('total_docs')
+    if total_docs_param is not None:
+        total_docs = int(total_docs_param)
+        print(f"Using total_docs from params: {total_docs}")
+    else:
+        total_docs = collection.count_documents({})
+        print(f"No param provided. Using total_docs from MongoDB: {total_docs}")
 
-    total_docs = 1000  # Replace with: collection.count_documents({})
     batch_offsets = [(i, min(BATCH_SIZE, total_docs - i)) for i in range(0, total_docs, BATCH_SIZE)]
 
     client.close()
@@ -173,10 +205,18 @@ with DAG(
         start_date=datetime(2025, 1, 1),
         schedule=None,  # Manual trigger
         catchup=False,
-        tags=["mongo", "elastic", "batch", "dynamic"]
+        tags={"mongo", "elastic", "batch", "dynamic"},
+        params={
+            "total_docs": None,
+            "drop_index": False
+
+        }
 ) as dag:
-    print_env()
+    env = print_env()
+    drop = maybe_drop_index()
     batch_offsets = calculate_batches()
     batches = retrieve_batch.expand(batch_info=batch_offsets)
     processed = process_batch.expand(batch=batches)
     save_batch.expand(actions=processed)
+
+    env >> drop >> batches
