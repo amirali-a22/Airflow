@@ -14,7 +14,7 @@ from pymongo import MongoClient
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-BATCH_SIZE = 1000  # Process 1000 documents per batch
+BATCH_SIZE = 100  # Process 1000 documents per batch
 
 
 def serialize_doc(doc):
