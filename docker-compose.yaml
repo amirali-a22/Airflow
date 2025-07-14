@@ -347,3 +347,4 @@ volumes:
 networks:
   airflow-net:
     driver: bridge
+    external: true
